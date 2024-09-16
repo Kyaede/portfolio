@@ -1,0 +1,24 @@
+ /* width */
+ ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+
+    background: transparent;
+    width: 10%;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(94.94deg, #0000ff -1.76%, #01fffb 80.53%);
+    /* border-radius: 5px; */
+    transition: 0.3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(87, 87, 87);
+    transition: 0.3s;
+  }
